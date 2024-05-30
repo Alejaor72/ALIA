@@ -1,0 +1,396 @@
+@media (min-width:375px) and (max-width:440px) {
+    h1 {
+        font-size: 3.3rem;
+        margin-top: 6.25rem; 
+    }
+    
+    .ProjectDiv {
+        padding-top: 3.125rem;
+        padding-bottom: 10.25rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    
+    .inputDivProject {
+        width: 20rem;
+        margin-top: 3.25rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 3.25rem;
+        padding-bottom: 4.5rem;
+        border-radius: 1.25rem; 
+        box-shadow: 0.25rem 0.25rem 0.625rem 0 rgba(0, 0, 0, 0.20); 
+        backdrop-filter: blur(4.6875rem);
+    }
+    
+    h3 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    input {
+        border-radius: 0.65rem;
+        border: 0.1rem solid #FFF;
+        padding-top: 0.625rem; 
+        background-color:  transparent;
+        padding-bottom: 0.625rem; 
+        margin-bottom: 0.625rem; 
+        padding-left: 0.625rem; 
+        font-size: 0.7rem;
+    }
+    
+    .inputProject::placeholder {
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .inputCommentProject::placeholder {
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .inputCommentProject {
+        padding-bottom: 4rem;
+    }
+    
+    .DesignselectProject{
+        border-radius: 0.65rem;
+        border: 0.1rem solid #FFF;
+        background-color:  transparent;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        margin-bottom: 0.6rem;
+        padding-left: 0.7rem;
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .DesignselectProject option {
+        color: #000;
+        background-color: #fff; 
+    }
+    .DesignselectProject option:checked {
+        color: #7200ca; 
+        background-color: #fff;
+    }
+    
+    .upload-container {
+        position: relative;
+        width: 98%;
+        border-radius: 1rem;
+        overflow: hidden; 
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        background: rgba(255, 255, 255, 0.29);
+        box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+        backdrop-filter: blur(75px);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        margin-bottom: 1rem;
+      }
+    
+      .upload-container input[type="file"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        cursor: pointer; 
+      }
+    
+      .upload-icon {
+        width: 20%;
+      }
+    
+    .textPart {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 441px) and (max-width:1024px) {
+    h1 {
+        font-size: 3.3rem;
+        margin-top: 6.25rem; 
+    }
+    
+    .ProjectDiv {
+        padding-top: 3.125rem;
+        padding-bottom: 10.25rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    
+    .inputDivProject {
+        margin-top: 3.25rem;
+        margin-left: 9.5rem;
+        margin-right: 9.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 3.25rem;
+        padding-bottom: 4.5rem;
+        border-radius: 1.25rem; 
+        box-shadow: 0.25rem 0.25rem 0.625rem 0 rgba(0, 0, 0, 0.20); 
+        backdrop-filter: blur(4.6875rem);
+    }
+    
+    h3 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    input {
+        border-radius: 0.65rem;
+        border: 0.1rem solid #FFF;
+        padding-top: 0.625rem; 
+        padding-bottom: 0.625rem; 
+        margin-bottom: 0.625rem; 
+        padding-left: 0.625rem; 
+        font-size: 0.7rem;
+        background-color:  transparent;
+    }
+    
+    .inputProject::placeholder {
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .inputCommentProject::placeholder {
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .inputCommentProject {
+        padding-bottom: 4rem;
+    }
+    
+    .DesignselectProject{
+        border-radius: 0.65rem;
+        border: 0.1rem solid #FFF;
+        background-color:  transparent;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        margin-bottom: 0.6rem;
+        padding-left: 0.7rem;
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .DesignselectProject option {
+        color: #000;
+        background-color: #fff; 
+    }
+    .DesignselectProject option:checked {
+        color: #7200ca; 
+        background-color: #fff;
+    }
+    
+    .upload-container {
+        position: relative;
+        width: 98%;
+        border-radius: 1rem;
+        overflow: hidden; 
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        background: rgba(255, 255, 255, 0.29);
+        box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+        backdrop-filter: blur(75px);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        margin-bottom: 1rem;
+      }
+    
+      .upload-container input[type="file"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        cursor: pointer; 
+      }
+    
+      .upload-icon {
+        width: 20%;
+      }
+    
+    .textPart {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:1025px){
+    h1 {
+        font-size: 3.3rem;
+        margin-top: 6.25rem; 
+    }
+    
+    .ProjectDiv {
+        padding-top: 5.125rem;
+        padding-bottom: 15.25rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    
+    .inputDivProject {
+        width: 47rem;
+        margin-top: 3.25rem;
+        margin-left: 3rem;
+        margin-right: 3.5rem;
+        padding-left: 3.5rem;
+        padding-right: 4.5rem;
+        padding-top: 3.25rem;
+        padding-bottom: 4.5rem;
+        border-radius: 1.25rem; 
+        box-shadow: 0.25rem 0.25rem 0.625rem 0 rgba(0, 0, 0, 0.20); 
+        backdrop-filter: blur(4.6875rem);
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+    h3 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    input {
+        border-radius: 0.9rem;
+        border: 0.1rem solid #FFF;
+        padding-top: 1rem; 
+        padding-bottom: 1rem; 
+        margin-bottom: 1rem; 
+        padding-left: 1.2rem; 
+        padding-right: 2rem;
+        font-size: 1rem;
+        background-color:  transparent;
+    }
+    
+    .inputProject::placeholder {
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .inputCommentProject::placeholder {
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .inputCommentProject {
+        padding-bottom: 6rem;
+    }
+    
+    .DesignselectProject{
+        background-color:  transparent;
+        border-radius: 0.9rem;
+        border: 0.1rem solid #FFF;
+        padding-top: 1rem; 
+        padding-bottom: 1rem; 
+        margin-bottom: 1rem; 
+        padding-left: 1.2rem; 
+        padding-right: 2rem;
+        font-size: 1rem;
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .DesignselectProject option {
+        color: #000;
+        background-color: #fff; 
+    }
+    .DesignselectProject option:checked {
+        color: #7200ca; 
+        background-color: #fff;
+    }
+    
+    .upload-container {
+        width: 98%;
+        position: relative;
+        border-radius: 1rem;
+        overflow: hidden; 
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        background: rgba(255, 255, 255, 0.29);
+        box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+        backdrop-filter: blur(75px);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        margin-right: 3rem;
+      }
+    
+      .upload-container input[type="file"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        cursor: pointer; 
+      }
+    
+      .upload-icon {
+        width: 20%;
+      }
+    
+    .textPart {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 2rem;
+    }
+}

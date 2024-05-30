@@ -1,0 +1,512 @@
+@media (min-width: 375px) and (max-width: 1024px){
+    body {
+      margin: 0;
+      display: flex;
+      place-items: center;
+      min-width: 320px;
+      min-height: 100vh;
+    }
+    
+    .start{
+      text-align: left;
+      align-items: left;
+      margin-bottom: 4rem;
+    }
+    
+    .aliaTitle {
+      font-family: "Comfortaa";
+      font-size: 5rem;
+      margin-left: 2rem;
+      margin-top: 4rem;
+      margin-bottom: -1rem;
+    }
+    
+    .slogan{
+      line-height: 1;
+      font-size: 1.2rem;
+      padding-left: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .whoAreWe{
+      text-align: left;
+      padding-left: 2rem;
+      width: 30rem;
+      margin-bottom: 1rem;
+    }
+    
+    .description{
+      text-align: left;
+      padding-left: 2rem;
+      width: 30rem;
+      margin-bottom: 2rem;
+    }
+    
+    .heads{
+      width: 16rem;
+    }
+
+    .headCards{
+      margin-left: 1.7rem;
+    }
+    
+    .servicesTitle{
+      margin-top: 6rem;
+      text-align: center;
+      padding-left: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .servicesText{
+      text-align: center;
+      padding-left: 1rem;
+      width: 30rem;
+      margin: 0 auto;
+    }
+    
+    .service{
+      width: 16rem;
+      margin-bottom: -2rem;
+    }
+
+    .servicesCards{
+      margin-top: 1.2rem;
+    }
+    
+    .tower{
+      position: absolute;
+      width: 7rem;
+      margin-left: 9.5rem;
+      margin-top: -9.7rem;
+    }
+    
+    .valuesTitle{
+      margin-top: 9rem;
+      text-align: left;
+      padding-left: 2.3rem;
+    }
+    
+    .valuesText1, .valuesText2, .valuesText3 {
+      text-align: left;
+      border-radius: 10px;
+      width: 30rem;
+      padding-left: 1rem;
+      padding: 35px;
+      font-size: 1.1rem;
+      background-image: url('../../assets/rectangle.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 1rem;
+    }
+    
+    .members{
+      font-size: 2.3rem;
+      text-align: left;
+      padding-left: 2rem;
+      margin-top: 6rem;
+      margin-bottom: -3.5rem;
+    }
+    
+    .profileCard{
+      margin-top: 10rem;
+      margin-left: 1rem;
+    }
+    
+    .names {
+      position: absolute;
+      margin-top: -13.5rem;
+      margin-left: 4rem;
+      width: max-content;
+      display: flex;
+      text-align: left;
+      font-size: 2.2rem;
+      color: white;
+    }
+    
+    .memberSection img[src*="20.png"] {
+      position: absolute;
+      margin-top: -2rem;
+      margin-left: -1.5rem;
+      width: max-content;
+      display: flex;
+      align-items: center;
+    }
+    
+    .memberSection img[src*="isaAvatar.png"] {
+      position: absolute;
+      width: 30rem;
+      display: flex;
+      margin-top: -9.1rem;
+      margin-left: 1.3rem;
+    }
+    
+    .memberSection img[src*="alejaAvatar.png"] {
+      position: absolute;
+      width: 29rem;
+      display: flex;
+      margin-top: -8.1rem;
+      margin-left: 2rem;
+    }
+    
+    .memberSection img[src*="andreAvatar.png"] {
+      position: absolute;
+      width: 29rem;
+      display: flex;
+      margin-top: -8rem;
+      margin-left: 2.5rem;
+    }
+    
+    .memberSection img[src*="lauAvatar.png"] {
+      position: absolute;
+      width: 28rem;
+      display: flex;
+      margin-top: -7rem;
+      margin-left: 3rem;
+    }
+    
+    .work{
+      text-align: left;
+      padding-left: 3rem;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+    
+    .descrip{
+      text-align: left;
+      padding-left: 3rem;
+      margin-top: 1rem;
+      width: 29rem;
+    }
+    
+    .memberSection img[src*="ui.png"] {
+      width: 15rem;
+      margin-top: -2rem;
+    }
+    
+    .memberSection img[src*="ux.png"] {
+      width: 15rem;
+      margin-top: -2rem;
+      margin-left: -1rem;
+    }
+    
+    .memberSection img[src*="video.png"] {
+      width: 15rem;
+      margin-top: -2rem;
+    }
+    
+    .memberSection img[src*="illustrations.png"] {
+      width: 15rem;
+      margin-top: -2rem;
+      margin-left: -1rem;
+    }
+    
+    .profile {
+      position: absolute;
+      margin-top: -9rem;
+      margin-left: 4rem;
+      gap: 0.5rem;
+      width: max-content;
+      display: flex;
+      text-align: left;
+      align-items: center;
+      color: white;
+    }
+    
+    .insta {
+      position: absolute;
+      margin-top: -6rem;
+      margin-left: 4rem;
+      gap: 0.5rem;
+      width: max-content;
+      display: flex;
+      text-align: left;
+      align-items: center;
+      color: white;
+    }
+    
+    .tape {
+      width: 110%;
+      height: auto;
+      display: block;
+      margin: 0;
+      margin-left: -2rem;
+      margin-top: 2.5rem;
+    }
+}
+
+
+
+
+@media (min-width: 1025px){
+    body {
+      margin: 0;
+      display: flex;
+      place-items: center;
+      min-width: 320px;
+      min-height: 100vh;
+    }
+    
+    .start{
+      text-align: left;
+      align-items: left;
+      margin-bottom: 9rem;
+      margin-top: 8rem;
+    }
+    
+    .aliaTitle{
+      font-family: "Comfortaa";
+      font-size: 6rem;
+      margin-left: 2rem;
+      margin-top: -2rem;
+    }
+    
+    .slogan{
+      line-height: 1;
+      padding-left: 2rem;
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+      margin-top: -3rem;
+    }
+    
+    .whoAreWe{
+      text-align: left;
+      padding-left: 2rem;
+      width: 30rem;
+      font-size: 1.7rem;
+    }
+    
+    .description{
+      text-align: left;
+      padding-left: 2rem;
+      width: 26.5rem;
+      font-size: 1.2rem;
+      padding-top: 1rem;
+    }
+
+    .headCards{
+      width: 30rem;
+      margin-left: 31.5rem;
+      margin-top: -24rem;
+    }
+    
+    .heads{
+      width: 15rem;
+    }
+    
+    .servicesTitle{
+      margin-top: 7rem;
+      text-align: center;
+      font-size: 1.7rem;
+    }
+    
+    .servicesText{
+      text-align: center;
+      width: 42rem;
+      font-size: 1.2rem;
+      padding-top: 1rem;
+      margin: 0 auto;
+    }
+
+    
+    .service{
+      width: 18rem;
+      margin-bottom: -3rem;
+    }
+    
+    .tower{
+      position: absolute;
+      width: 10rem;
+      margin-left: 16.5rem;
+      margin-top: -11rem;
+    }
+    
+    .valuesTitle{
+      margin-top: 14rem;
+      text-align: left;
+      padding-left: 2.7rem;
+      font-size: 1.7rem;
+    }
+    
+    .valuesText1 {
+      text-align: left;
+      border-radius: 15px;
+      width: 47rem;
+      padding: 42px;
+      padding-right: 13.5rem;
+      font-size: 1.2rem;
+      background-image: url('../../assets/rectangle.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .valuesText2{
+      text-align: left;
+      border-radius: 15px;
+      width: 26rem;
+      padding: 42px;
+      font-size: 1.2rem;
+      background-image: url('../../assets/rectangle.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .valuesText3{
+        text-align: left;
+        border-radius: 15px;
+        width: 26rem;
+        padding: 42px;
+        font-size: 1.2rem;
+        margin-left: 30.5rem;
+        margin-top: -13.5rem;
+        background-image: url('../../assets/rectangle.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .members{
+      font-size: 2.3rem;
+      text-align: left;
+      padding-left: 2rem;
+      margin-top: 7rem;
+      margin-bottom: -1.5rem;
+    }
+    
+    .profileCard{
+      margin-top: 7rem;
+      margin-left: 2rem;
+    }
+    
+    .names {
+      position: absolute;
+      margin-top: -12rem;
+      margin-left: 4rem;
+      width: max-content;
+      display: flex;
+      text-align: left;
+      font-size: 2.2rem;
+      color: white;
+    }
+    
+    .memberSection img[src*="20.png"] {
+      position: absolute;
+      margin-top: -2rem;
+      margin-left: -1.5rem;
+      width: 6rem;
+      display: flex;
+      align-items: center;
+    }
+    
+    .memberSection img[src*="isaAvatar.png"] {
+      position: absolute;
+      width: 25rem;
+      display: flex;
+      margin-top: -6rem;
+      margin-left: 2rem;
+    }
+    
+    .memberSection img[src*="alejaAvatar.png"] {
+      position: absolute;
+      width: 24rem;
+      display: flex;
+      margin-top: -4.9rem;
+      margin-left: 2rem;
+    }
+    
+    .memberSection img[src*="andreAvatar.png"] {
+      position: absolute;
+      width: 24rem;
+      display: flex;
+      margin-top: -4.9rem;
+      margin-left: 2.5rem;
+    }
+    
+    .memberSection img[src*="lauAvatar.png"] {
+      position: absolute;
+      width: 23rem;
+      display: flex;
+      margin-top: -3.9rem;
+      margin-left: 3rem;
+    }
+
+    .memberSection img[src*="bigCard.png"] {
+        width: 30rem;
+        display: flex;
+    }
+    
+    .work{
+      text-align: left;
+      padding-left: 34rem;
+      margin-top: -32.5rem;
+      font-size: 1.7rem;
+    }
+    
+    .descrip{
+      text-align: left;
+      padding-left: 34rem;
+      margin-top: -1rem;
+      width: 27rem;
+      font-size: 1.2rem;
+    }
+    
+    .memberSection img[src*="ui.png"] {
+      width: 15rem;
+      margin-top: -2.7rem;
+      padding-left: 32rem;
+    }
+    
+    .memberSection img[src*="ux.png"] {
+      width: 15rem;
+      margin-top: -2.7rem;
+      margin-left: -1rem;
+    }
+    
+    .memberSection img[src*="video.png"] {
+      width: 15rem;
+      margin-top: -1rem;
+      padding-left: 32rem;
+    }
+    
+    .memberSection img[src*="illustrations.png"] {
+      width: 15rem;
+      margin-top: -2rem;
+      margin-left: -1rem;
+    }
+    
+    .profile {
+      position: absolute;
+      margin-top: -8rem;
+      margin-left: 4rem;
+      gap: 0.5rem;
+      width: max-content;
+      display: flex;
+      text-align: left;
+      align-items: center;
+      color: white;
+    }
+    
+    .insta {
+      position: absolute;
+      margin-top: -5rem;
+      margin-left: 4rem;
+      gap: 0.5rem;
+      width: max-content;
+      display: flex;
+      text-align: left;
+      align-items: center;
+      color: white;
+    }
+    
+    .tape {
+      width: 103%;
+      height: auto;
+      display: block;
+      margin: 0;
+      margin-left: -2rem;
+      margin-top: 10rem;
+      margin-bottom: 9rem;
+    }
+}

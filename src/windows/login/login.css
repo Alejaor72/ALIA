@@ -1,0 +1,210 @@
+@media (min-width:375px) and (max-width:440px) {
+        .loginAlia{
+            font-family: "Comfortaa";
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            margin-top: 5rem;
+            margin-bottom: 2.5rem;
+            font-size: 6rem;
+            letter-spacing: 0.5rem;
+        }
+        .loginDiv{
+            width: 28.5rem;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            margin-bottom: 8.7rem;
+        }
+        .inputLoginDiv{
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 5rem;
+            border-radius: 1rem;
+            padding-top: 3rem;
+            padding-bottom: 5rem;
+            padding-left: 1rem;
+            padding-right: 2rem;
+            background: rgba(255, 255, 255, 0.07);
+            box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+            backdrop-filter: blur(75px);
+        }
+        .subtitleLogin{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 550;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 2.5rem;
+            margin-top: 1rem;
+        }
+        .inputLoginDiv input{
+            border-radius: 0.65rem;
+            border: 0.1rem solid #FFF;
+            background-color:  transparent;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom:1.5rem;
+            padding: auto;
+            font-size: 1.1rem;
+            margin-left: 1rem;
+        }
+        .inputLogin::placeholder {
+            padding-left: 0.5rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }
+    
+    @media (min-width: 441px) and (max-width:1024px) {
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        h1{
+            font-family: "Comfortaa";
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            margin-top: 7rem;
+            font-size: 3.3rem;
+        }
+        .loginDiv{
+            width: 100%;
+            padding-top: 1rem;
+            padding-bottom: 6rem;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+        }
+        .inputLoginDiv{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-bottom: 9rem;
+            border-radius: 1rem;
+            padding-top: 5rem;
+            padding-bottom: 8rem;
+            padding-left:6rem;
+            padding-right: 6rem;
+            background: rgba(255, 255, 255, 0.07);
+            box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+            backdrop-filter: blur(75px);
+        }
+        h3{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 1.3rem;
+            font-style: normal;
+            font-weight: 550;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+        input{
+            border-radius: 0.65rem;
+            border: 0.1rem solid #FFF;
+            background-color:  transparent;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom:1.5rem;
+        }
+        .inputLogin::placeholder {
+            padding-left: 1.3rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-size: 0.9rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }
+    
+    @media (min-width:1025px){
+        .loginAlia{
+            font-family: "Comfortaa";
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            font-size: 8rem;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            height: fit-content;
+            margin-top: 12rem;
+            margin-left: 3rem;
+            letter-spacing: 1rem;
+        }
+        .loginDiv{
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: row;
+            gap: 1rem;
+        }
+        .inputLoginDiv{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-bottom: 9rem;
+            border-radius: 1rem;
+            padding-top: 4rem;
+            padding-bottom: 6rem;
+            padding-left:5rem;
+            padding-right: 6rem;
+            background: rgba(255, 255, 255, 0.07);
+            box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+            backdrop-filter: blur(75px);
+            width: 80%; 
+            max-width: 18rem;
+        }
+        .subtitleLogin{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 550;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .inputLoginDiv input{
+            border-radius: 0.65rem;
+            border: 0.1rem solid #FFF;
+            background-color:  transparent;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom:1.5rem;
+            padding: auto;
+            font-size: 1.1rem;
+            margin-left: 1rem;
+        }
+        .inputsLog{
+            margin-bottom: 1rem;
+        }
+        .inputLogin::placeholder {
+            padding-left: 0.5rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }

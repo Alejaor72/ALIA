@@ -1,0 +1,332 @@
+@media (min-width:375px) and (max-width:440px){
+    .contactAlia{
+        font-family: "Comfortaa";
+        color: #ffffff;
+        text-align: center;
+        position: relative;
+        margin-top: 4rem;
+        margin-bottom: 0.6rem;
+        font-size: 6rem;
+        letter-spacing: 0.5rem;
+    }
+    .ContactDiv{
+        width: 28.5rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        margin-bottom: 2.4rem;
+    }
+    .inputContactDiv{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 5rem;
+        border-radius: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background: rgba(255, 255, 255, 0.07);
+        box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+        backdrop-filter: blur(75px);
+    }
+    .subtitleCont{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 550;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        margin-top: 1rem;
+    }
+    .inputContactDiv input{
+        border-radius: 0.65rem;
+        border: 0.1rem solid #FFF;
+        background-color:  transparent;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+        padding: auto;
+        font-size: 1.1rem;
+    }
+    .inputContactDiv .inputContact::placeholder {
+        padding-left: 1rem;
+        color: #CECECE;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .inputContactDiv .inputCommentContact::placeholder {
+        color: #CECECE;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding-left: 1rem;
+    }
+    .inputContactDiv .inputCommentContact{
+        padding-bottom: 6rem;
+    }
+    .DesignselectContact{
+        border-radius: 0.65rem;
+        border: 0.1rem solid #FFF;
+        background-color:  transparent;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 0.5rem;
+        color: #CECECE;
+        font-family: Inter;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .DesignselectContact option {
+        color: #000;
+        background-color: #ffffff61; 
+    }
+    .DesignselectContact option:checked {
+        color: #7200ca; 
+        background-color: #fff;
+    }  
+    }
+    
+    @media (min-width:441px ) and (max-width:1024px) {
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        h1{
+            font-family: "Comfortaa";
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            margin-top: 7rem;
+            font-size: 3.3rem;
+        }
+        .ContactDiv{
+            width: 100%;
+            background-image: url(../../assets/phoneBackground.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 1rem;
+            padding-bottom: 6rem;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+        }
+        .inputContactDiv{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-bottom: 9rem;
+            border-radius: 1rem;
+            padding-top: 5rem;
+            padding-bottom: 8rem;
+            padding-left:6rem;
+            padding-right: 6rem;
+            background: rgba(255, 255, 255, 0.07);
+            box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+            backdrop-filter: blur(75px);
+        }
+        h3{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 1.3rem;
+            font-style: normal;
+            font-weight: 550;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+        input{
+            border-radius: 0.65rem;
+            border: 0.1rem solid #FFF;
+            background-color:  transparent;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom:1.5rem;
+        }
+        .inputContact::placeholder {
+            padding-left: 1.3rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-size: 0.9rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .inputContact::placeholder {
+            padding-left: 1rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-size: 0.7rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .inputCommentContact::placeholder {
+            color: #CECECE;
+            font-family: Inter;
+            font-size: 0.7rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            padding-left: 1rem;
+        }
+        .inputCommentContact{
+            padding-bottom: 6rem;
+        }
+        .DesignselectContact{
+            border-radius: 0.65rem;
+            border: 0.1rem solid #FFF;
+            background-color:  transparent;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-size: 0.7rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .DesignselectContact option {
+            color: #000;
+            background-color: #ffffff61; 
+        }
+        .DesignselectContact option:checked {
+            color: #7200ca; 
+            background-color: #fff;
+        }
+    }
+    
+    @media (min-width:1025px){
+        .contactAlia{
+            font-family: "Comfortaa";
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            font-size: 8rem;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            height: fit-content;
+            margin-top: 13rem;
+            margin-left: 3rem;
+            letter-spacing: 1rem;
+        }
+        .ContactDiv{
+            padding-top: 3rem;
+            padding-bottom: 6rem;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: row;
+            gap: 1rem;
+        }
+        .inputContactDiv{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-bottom: 9rem;
+            border-radius: 1rem;
+            padding-top: 4rem;
+            padding-bottom: 6rem;
+            padding-left:5rem;
+            padding-right: 6rem;
+            background: rgba(255, 255, 255, 0.07);
+            box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+            backdrop-filter: blur(75px);
+            width: 80%; 
+            max-width: 18rem;
+        }
+        .subtitleCont{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 550;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .inputContactDiv input{
+            border-radius: 0.65rem;
+            border: 0.1rem solid #FFF;
+            background-color:  transparent;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom:1.5rem;
+            padding: auto;
+            font-size: 1.1rem;
+        }
+        .inputContactDiv .inputContact::placeholder {
+            padding-left: 0.5rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .inputContactDiv .DesignselectContact::placeholder {
+            padding-left: 0.5rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .inputCommentContact::placeholder {
+            color: #CECECE;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            padding-left: 0.7rem;
+        }
+        input.inputCommentContact{
+            padding-bottom: 6rem;
+            margin-bottom: 2rem;
+        }
+        .DesignselectContact{
+            border-radius: 0.65rem;
+            border: 0.1rem solid #FFF;
+            background-color:  transparent;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+            margin-bottom: 1rem;
+            padding-left: 1rem;
+            padding-right: 0.5rem;
+            color: #CECECE;
+            font-family: Inter;
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .DesignselectContact option {
+            color: #000;
+            background-color: #ffffff61; 
+        }
+        .DesignselectContact option:checked {
+            color: #7200ca; 
+            background-color: #fff;
+        }  
+    }
