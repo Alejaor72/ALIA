@@ -5,6 +5,7 @@ export function AppRouter() {
     return (
         <Routes>
             <Route path='/' element={<Landing />} />
+            <Route path='/ALIA' element={<Landing />} />
             <Route path="/projects" element={<AllProyects />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
